@@ -1,0 +1,11 @@
+Railway (https://railway.app/dashboard)
+Railway itu sama ji kayak Heroku, yaitu PaaS (Platform as a service) untuk deploy Web Application yg sdh kita buat yang mana support banyak bahasa sih untuk bisa ko deploy di dalamnya. 
+
+Contoh Web Hasil Upload ExpressJs ada di : https://express-deploy-test-production.up.railway.app/
+
+Dan Railway juga pakai container yg bernama Nixpacks sedangkan Heroku dia pakai container yg kita kenal dgn nama Dynos.
+Docs untk penjelasannya di : https://docs.railway.app/deploy/builds
+Docs untk penjelasan Deploy NodeJs App di Railway : https://nixpacks.com/docs/providers/node
+
+Hasil Deploy yg kita coba yaitu menggunakan bantuan Github yg kita connectkan dari railway, sehingga kalau github berubah maka otomatis railway akan deploy ulang itu App, jadi nd usah manual lagi. Dan Github yg kita pakaikan percobaan ada di Github dgn akun email theodoruskarli@gmail.com (name: Theo).
+
