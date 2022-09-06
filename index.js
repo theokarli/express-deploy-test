@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000; // kita mau gunakan port 3000, jika tidak
 
 // Routes 
 app.get('/', (req, res) => { // kalau ada req ke / maka jalankan function di bwah ini
-    res.send('Hello World!');
+    res.send(`Hello World!` + process.env.Tumbal);
 });
 
 app.get('/coba', (req, res) => { // kalau ada req ke /coba maka jalankan function di bwah ini
