@@ -1,3 +1,4 @@
+const { nanoid } = require('nanoid'); // import third party module nanoid
 const express = require('express'); // import third party module express
 const app = express(); // execute express
 const port = process.env.PORT || 3000; // kita mau gunakan port 3000, jika tidak ada maka gunakan port yg ada di environment dimana kita deploy web app kita
@@ -14,6 +15,17 @@ app.get('/coba', (req, res) => { // kalau ada req ke /coba maka jalankan functio
 
 app.get('/makan', (req, res) => { // kalau ada req ke /makan maka jalankan function di bwah ini
     res.send('Silahkan Makan Banyak Banyak!');
+});
+
+app.get('/api', (req, res) => { // kalau ada req ke /api maka jalankan function di bwah ini
+    res.status(200).json({
+        status: 'success',
+        message: 'API is working!',
+        data: {
+            id: nanoid(10),
+            name: 'Tumbal',
+        }
+    });
 });
 
 
