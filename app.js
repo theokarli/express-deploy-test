@@ -10,7 +10,7 @@ app.get('/', (req, res) => { // kalau ada req ke / maka jalankan function di bwa
 });
 
 app.get('/coba', (req, res) => { // kalau ada req ke /coba maka jalankan function di bwah ini
-    res.send('Sukses mi dalam deploy web app ke RAILWAY!');
+    res.send('Sukses mi dalam deploy web app ke RAILWAY!! untk kedua kalinya mi nahh setelah di SHUTDOWN');
 });
 
 app.get('/makan', (req, res) => { // kalau ada req ke /makan maka jalankan function di bwah ini
