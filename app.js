@@ -32,4 +32,5 @@ app.get('/api', (req, res) => { // kalau ada req ke /api maka jalankan function 
 // Untuk Jalankan / BootUp server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
+    console.log(process.version);
 });
