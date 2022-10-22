@@ -14,7 +14,7 @@ app.get('/coba', (req, res) => { // kalau ada req ke /coba maka jalankan functio
 });
 
 app.get('/makan', (req, res) => { // kalau ada req ke /makan maka jalankan function di bwah ini
-    res.send('Silahkan Makan Banyak Banyak!');
+    res.send('Silahkan Makan Banyak Banyak Yaaa Ciayooo!');
 });
 
 app.get('/api', (req, res) => { // kalau ada req ke /api maka jalankan function di bwah ini
